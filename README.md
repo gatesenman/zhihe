@@ -16,20 +16,18 @@
 
 ## 从源码运行
 
-源码在 `src/`。本仓库不包含安装包。
+源码在仓库根目录。本仓库不包含安装包。
 
 ```bash
-cd src
 npm install
 npm run dev
 npm run build
 ```
-
-测试相关命令见 `src/README.md`；测试 Key 只通过环境变量传入。
+测试相关命令见 `README.original.md`；测试 Key 只通过环境变量传入。
 
 ## 文档
 
-- [源码 README](src/README.md)
+- [源码 README](README.original.md)
 
 ---
 
@@ -53,18 +51,16 @@ npm run build
 
 ## Getting started
 
-Source is under `src/`. This repository does not include installers.
+Source is at the repository root. This repository does not include installers.
 
 ```bash
-cd src
 npm install
 npm run dev
 npm run build
 ```
-
-Test commands are in `src/README.md`. Test keys must be passed via environment variables only.
+Test commands are in `README.original.md`. Test keys must be passed via environment variables only.
 
 ## Documentation
 
-- [源码 README](src/README.md)
+- [源码 README](README.original.md)
 

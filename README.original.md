@@ -8,7 +8,6 @@ npm install
 npm run dev                              # 开发
 npx electron-vite build && npx electron-builder --win nsis --x64   # Windows 安装包 → release/
 ```
-
 ## AI 引擎（设置 → AI 引擎与阶段路由）
 | 引擎 | 说明 |
 |---|---|
