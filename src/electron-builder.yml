@@ -1,0 +1,19 @@
+appId: com.zhihe.clm
+productName: Zhihe
+copyright: Copyright © 2026 智合
+directories: { output: release, buildResources: build }
+files: [out/**, package.json, '!**/*.map']
+extraMetadata: { main: out/main/index.js }
+npmRebuild: false
+artifactName: Zhihe-${version}-Setup.${ext}
+win:
+  icon: build/icon.ico
+  target: [{ target: nsis, arch: [x64] }]
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  shortcutName: 智合
+  uninstallDisplayName: 智合 合同全生命周期管理
+  createDesktopShortcut: true
+  language: 2052

@@ -1,0 +1,34 @@
+{
+  "name": "zhihe",
+  "productName": "Zhihe",
+  "version": "1.1.0",
+  "description": "智合 — 合同全生命周期管理 (CLM)",
+  "main": "out/main/index.js",
+  "author": { "name": "Zhihe", "email": "support@zhihe.app" },
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "typecheck": "tsc --noEmit",
+    "dist:win": "npm run build && electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "33.2.0",
+    "electron-builder": "^25.1.8",
+    "electron-vite": "^2.3.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remixicon": "^4.5.0",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "mammoth": "^1.8.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
