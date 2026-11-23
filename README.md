@@ -6,17 +6,15 @@
 
 当前 GitHub 上**没有**已发布安装包（无 Release）。`package.json` 版本为 **1.1.0**。Windows 打包可用 `npm run dist:win`，按 `electron-builder.yml` 预期产物为 `release/Zhihe-1.1.0-Setup.exe`。本轮因磁盘不足未打包上传。
 
-## 界面截图（待补真实图）
+## 界面截图
 
-仓库内没有任何产品界面截图（也没有可当作界面的图片）。因此**不**嵌入生成图或图标充数。
+以下三张是在 Linux 箱子上启动 **智合 Zhihe 1.1.0** 后截取的真实产品窗口。画面使用应用内置的示例合同（带「示例数据」标记），未打开设置页，无 API Key，也没有真实敏感合同。
 
-预留路径（待桌面在真实运行的应用中截取后再放入）：
+![仪表盘工作台](docs/screenshots/01-workbench.png)
 
-- `docs/screenshots/01-workbench.png` — 主工作台 / 合同列表或阶段总览
-- `docs/screenshots/02-extract-or-detail.png` — 合同详情或要素提取
-- `docs/screenshots/03-review-or-approve.png` — 审核或审批界面
+![合同要素提取](docs/screenshots/02-extract-or-detail.png)
 
-截取说明见 [`docs/screenshots/README.md`](docs/screenshots/README.md)。请遮盖 API Key 与合同中的敏感信息。
+![批量审查](docs/screenshots/03-review-or-approve.png)
 
 ## 功能特性
 
@@ -63,9 +61,15 @@ npm run build
 
 No published installer on GitHub Releases. Version **1.1.0**. Package with `npm run dist:win`; expected artifact `release/Zhihe-1.1.0-Setup.exe`. This pass did not build or upload packages (disk).
 
-### Screenshots (reserved)
+### Screenshots
 
-No product UI screenshots exist in the repository. This README does **not** embed generated images. Reserved paths: `docs/screenshots/01-workbench.png`, `02-extract-or-detail.png`, `03-review-or-approve.png`. See `docs/screenshots/README.md`. Mask API keys and sensitive contract data.
+These three images are real product-window captures of **Zhihe 1.1.0** running on Linux. The session used the app’s built-in sample contracts (tagged as sample/demo data). Settings was not opened, so no API keys are visible, and no real confidential contracts are shown.
+
+![Dashboard workbench](docs/screenshots/01-workbench.png)
+
+![Contract field extraction](docs/screenshots/02-extract-or-detail.png)
+
+![Batch review](docs/screenshots/03-review-or-approve.png)
 
 ## Features
 
